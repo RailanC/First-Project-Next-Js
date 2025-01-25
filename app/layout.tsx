@@ -1,46 +1,46 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import localFont from "next/dist/compiled/@next/font/dist/local";
+import localFont from "next/font/local";
 
 const workSans = localFont({
     src: [
         {
-            path: './fonts/WorkSans-Black.ttf',
+            path: '../fonts/WorkSans-Black.ttf',
             weight: '900',
-            style: 'normal',
+            style: 'normal'
         }, {
-            path: './fonts/WorkSans-ExtraBold.ttf',
+            path: '../fonts/WorkSans-ExtraBold.ttf',
             weight: '800',
-            style: 'normal',
+            style: 'normal'
         }, {
-            path: './fonts/WorkSans-Bold.ttf',
+            path: '../fonts/WorkSans-Bold.ttf',
             weight: '700',
-            style: 'normal',
+            style: 'normal'
         }, {
-            path: './fonts/WorkSans-SemiBold.ttf',
+            path: '../fonts/WorkSans-SemiBold.ttf',
             weight: '600',
-            style: 'normal',
+            style: 'normal'
         }, {
-            path: './fonts/WorkSans-Medium.ttf',
+            path: '../fonts/WorkSans-Medium.ttf',
             weight: '500',
-            style: 'normal',
+            style: 'normal'
         }, {
-            path: './fonts/WorkSans-Regular.ttf',
+            path: '../fonts/WorkSans-Regular.ttf',
             weight: '400',
-            style: 'normal',
+            style: 'normal'
         }, {
-            path: './fonts/WorkSans-Thin.ttf',
+            path: '../fonts/WorkSans-Thin.ttf',
             weight: '200',
-            style: 'normal',
+            style: 'normal'
         }, {
-            path: './fonts/WorkSans-ExtraLight.ttf',
+            path: '../fonts/WorkSans-ExtraLight.ttf',
             weight: '100',
-            style: 'normal',
+            style: 'normal'
         },
     ],
-    variable: '--font-work-sans',
-})
+    variable: '--font-work-sans'
+});
 
 export const metadata: Metadata = {
   title: "Tutorial 5H",
